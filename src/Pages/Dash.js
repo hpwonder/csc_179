@@ -40,7 +40,7 @@ function Dash() {
        <button className = "standardDev">
         Standard Deviation
        </button>
-         <div className="add">
+         <div className="addE">
         <Link to ="/Add"> 
           <button>
             Add Employee
