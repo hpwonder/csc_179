@@ -1,29 +1,26 @@
 .header {
-  width: 100%;
+  width: auto;
   height: 100px;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-}
-
-.header .leftSide {
-  flex: 56%;
-  height: 100%;
-  display: flex;
   align-items: center;
   padding-left: 90px;
+  
+  
+}
+
+.compName{
+ 
+  
 }
 
 .header .leftSide img {
   width: 50px;
 }
 
-.header .compName {
-  flex: 100%;
-  width: 100%;
-  display: flex;
-  align-items:center;
-}
+
+
 .body{
   border-radius: 15px;
   width: 1760px;
@@ -36,6 +33,7 @@ h3{
   width: 100%;
   display: flex;
   padding-left: 90px;
+  padding-top: 10px;
 }
 
 
@@ -54,9 +52,12 @@ select{
   margin-right:10px;
   
 }
+.compName{
+  margin-left:20px;
+}
 
 .selectGender{
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .addE{
   margin-left: 1000px;
