@@ -1,40 +1,107 @@
 .header {
   width: auto;
-  height: 100px;
+  height: 70px;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 90px;
+  padding-left: 70px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   
   
 }
 
 .compName{
- 
+ color:#ffffff
   
 }
 
 .header .leftSide img {
-  width: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 
 
 .body{
-  border-radius: 15px;
+  
   width: 1760px;
   height: 800px;
   margin: 20px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  
+  
 }
-h3{
+h2{
   flex: 100%;
   width: 100%;
   display: flex;
   padding-left: 90px;
   padding-top: 10px;
+  
 }
+.stats{
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: left;
+  padding-left: 90px;
+  
+}
+
+.vitals{
+  display: grid;
+  grid-template-columns: 1fr 1fr .5fr;
+  border-radius: 15px;
+  width: 620px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ahw{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr .7fr;
+  border-radius: 15px;
+  width: 850px;
+  height: 200px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.ahw img{
+  width: 45px;
+  height: 45px;
+  margin-left: 70px;
+  margin-top: 30px;
+  
+}
+.vitals img{
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+}
+.stats h4{
+  margin-top: 30px;
+  color:rgb(143, 150, 156);
+  
+}
+h4 div{
+  
+  color:black;
+  margin-top:20px;
+  font-size: 50px;
+ 
+}
+
+#hT{
+  margin-top:-5px;
+}
+#hT2{
+  margin-top:-5px;
+}
+
+
 
 
 
@@ -42,11 +109,10 @@ h3{
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top:20px;
   
 }
-.toprow div{
-  width: 150px;
-}
+
 select{
   
   margin-right:10px;
@@ -64,6 +130,41 @@ select{
 }
 
 
+
+@media only screen and (max-width: 1500px) {
+  .toprow{
+    display:grid;
+    grid-template-columns: .1fr .1fr .1fr;
+    margin: 10px;
+    place-items: center;
+   
+   }
+    .addE
+    {
+     margin-left:-65px;
+     
+     
+    }
+    }
+    @media only screen and (max-width: 650px) {
+      .toprow{
+       display:grid;
+       grid-template-columns: 1fr;
+       margin: 10px;
+       place-items: center;
+       align-content:space-between;
+       grid-gap:4px;
+      }
+  
+      .addE
+      {
+       margin-left:5px;
+      }
+       }
+    
+     
+     
+  
 
 
 
