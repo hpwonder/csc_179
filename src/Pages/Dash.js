@@ -3,6 +3,9 @@ import {Link} from "react-router-dom"
 import Logo from "../Assets/logo2.jpg"
 import Ahw from "../Assets/ahw.png"
 import Vitals from "../Assets/vitals.png"
+import Exercise from "../Assets/exercise.png"
+import Work from "../Assets/work3.png"
+import Balance from "../Assets/balance.png"
 import PersonIcon from '@mui/icons-material/Person';
 import "../Styles/Dash.css"
 
@@ -70,6 +73,19 @@ function Dash() {
           </h4>
           <img src = {Ahw}/>
           </div>
+          <div className = "hrs">
+        <h4> Hours of exercise per week
+        <div id = "exercise">20</div>
+        </h4>
+        <img src = {Exercise}/>
+        </div>
+       
+        <div className = "vacBal">
+        <h4> Vacation Balance (hours)
+        <div id = "exercise">20</div>
+        </h4>
+        <img src = {Balance}/>
+        </div>
         <div className = "vitals">
         <h4>Body Temperature (°C)
           <div id = "bodyTemp">30</div>
@@ -86,6 +102,19 @@ function Dash() {
           </h4>
           <div></div>
         </div>
+        <div className = "hrs">
+        <h4> Hours of work per week
+        <div id = "exercise">40</div>
+        </h4>
+        <img src = {Work}/>
+          
+        </div>
+        <div className = "extra">
+        <h4> 
+        <div>Extra</div>
+        </h4>
+        </div>
+      
         
        </div>
        </div>
