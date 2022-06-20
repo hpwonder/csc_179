@@ -21,30 +21,24 @@
   height: 45px;
 }
 
-
-
 .body{
-  
-  width: 1760px;
-  height: 800px;
-  margin: 20px;
-  
-  
+
 }
 h2{
   flex: 100%;
-  width: 100%;
+  width: 90%;
   display: flex;
-  padding-left: 90px;
+  padding-left:90px;
   padding-top: 10px;
   
 }
 .stats{
-  width: 100%;
+  width: 90%;
   height: auto;
   display: grid;
   place-items: left;
   padding-left: 90px;
+  grid-template-columns: 1fr 1fr 1fr;
   
 }
 
@@ -56,30 +50,92 @@ h2{
   height: 350px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  margin-top: -30px;
 }
+
 
 .ahw{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr .7fr;
   border-radius: 15px;
-  width: 850px;
+  width: 620px;
   height: 200px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
-.ahw img{
-  width: 45px;
-  height: 45px;
-  margin-left: 70px;
-  margin-top: 30px;
-  
+
+
+.hrs{
+  display: grid;
+  grid-template-columns: 1fr .3fr;
+  border-radius: 15px;
+  width: 325px;
+  height: 250px;
+  margin: 20px;
+  margin-left:70px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
-.vitals img{
+
+.vacBal{
+  display: grid;
+  grid-template-columns: 1fr .3fr;
+  border-radius: 15px;
+  width: 325px;
+  height: 200px;
+  margin: 20px;
+  
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+}
+.extra{
+  display: grid;
+  grid-template-columns: 1fr .3fr;
+  border-radius: 15px;
+  width: 325px;
+  height: 250px;
+  margin: 20px;
+ 
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.stats img{
   width: 45px;
   height: 45px;
   margin-left: 20px;
   margin-top: 30px;
   
+}
+.ahw img{
+
+  margin-left: 15px;
+  
+  
+}
+.vitals img{
+
+  margin-left: 20px;
+ 
+  
+}
+
+.hrs img {
+  margin-right: 20px;
+}
+.vacBal img {
+  margin-right: 20px;
+}
+.hrs div{
+  font-size:80px;
+
+}
+
+.vacBal div{
+  font-size:65px;
+}
+.hrsExercise h4{
+  padding-left:10px;
+}
+.hrsWork h4{
+  padding-left:10px;
 }
 .stats h4{
   margin-top: 30px;
@@ -92,6 +148,9 @@ h4 div{
   margin-top:20px;
   font-size: 50px;
  
+}
+.vitals  div{
+  font-size: 60px;
 }
 
 #hT{
